@@ -3,6 +3,7 @@
 Notes Link:
 - https://www.programiz.com/cpp-programming/arrays
 - https://www.geeksforgeeks.org/cpp/cpp-arrays/
+- https://www.programiz.com/dsa/linear-search
 
 C++ Array Declaration
 Access element sin c++ ARRAY
@@ -16,3 +17,6 @@ Traverse of array
 int a =10;
 int *P,(value)
 p = &a;(address)
+
+### Searching 
+#### Linear Search
