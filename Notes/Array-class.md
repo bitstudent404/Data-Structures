@@ -7,6 +7,7 @@ Notes Link:
 - https://www.w3schools.com/c/c_arrays_multi.php
 - https://www.geeksforgeeks.org/cpp/cpp-multidimensional-array/
 - https://www.digitalocean.com/community/tutorials/two-dimensional-array-in-c-plus-plus
+- https://www.programiz.com/dsa/bubble-sort
 
 C++ Array Declaration
 Access element sin c++ ARRAY
@@ -28,3 +29,4 @@ p = &a;(address)
 ### Two Dimensional Array
 
 How 
+### Bubble Sort
