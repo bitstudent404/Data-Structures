@@ -8,7 +8,7 @@ Notes Link:
 - https://www.geeksforgeeks.org/cpp/cpp-multidimensional-array/
 - https://www.digitalocean.com/community/tutorials/two-dimensional-array-in-c-plus-plus
 - https://www.programiz.com/dsa/bubble-sort
-
+- https://www.programiz.com/dsa/selection-sort
 C++ Array Declaration
 Access element sin c++ ARRAY
 
@@ -30,3 +30,5 @@ p = &a;(address)
 
 How 
 ### Bubble Sort
+
+### Selection Sort
