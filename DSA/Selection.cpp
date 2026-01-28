@@ -5,9 +5,9 @@ int comparisons = 0;
 
 void Slsort(int A[],int n){
     for (int i=0;i<n-1;i++){
-        comparisons++;
         int min_index=i;
         for (int j=i+1;j<n;j++){
+            comparisons++;
             if (A[j]<A[min_index]){
                 min_index = j;
             }
