@@ -5,8 +5,6 @@ using namespace std;
 
 void topologicalSort(int V, vector<vector<int>>& adj) {
     vector<int> indegree(V, 0);
-
-    // Calculate indegree
     for (int i = 0; i < V; i++) {
         for (int neighbor : adj[i]) {
             indegree[neighbor]++;
@@ -15,7 +13,7 @@ void topologicalSort(int V, vector<vector<int>>& adj) {
 
     queue<int> q;
 
-    // Push nodes with indegree 0
+  
     for (int i = 0; i < V; i++) {
         if (indegree[i] == 0) {
             q.push(i);
@@ -24,7 +22,7 @@ void topologicalSort(int V, vector<vector<int>>& adj) {
 
     vector<int> topoOrder;
 
-    // Kahn's Algorithm
+
     while (!q.empty()) {
         int node = q.front();
         q.pop();
@@ -38,13 +36,13 @@ void topologicalSort(int V, vector<vector<int>>& adj) {
         }
     }
 
-    // Check for cycle
+
     if (topoOrder.size() != V) {
         cout << "Cycle detected! Topological sort not possible.\n";
         return;
     }
 
-    // Output result
+  
     cout << "Topological Order: ";
     for (int node : topoOrder) {
         cout << node << " ";
